@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Live demo](https://img.shields.io/badge/demo-GitHub%20Pages-2ea44f.svg)](https://FetchDoge.github.io/quote-rescue/)
 
-A local-first quote-to-decision-pack compiler. A structured estimate goes in, its facts are validated against the source, and a customer decision pack comes out. A quote that silently assumes warranty terms is how disputes start, so where the source is silent the pack asks a question instead of inventing a promise. The compiler is deterministic, offline and inspectable; no LLM runs in the browser. Built by Marcus Richards in Calgary.
+A local-first quote-to-decision-pack compiler. A structured estimate goes in, its facts are validated against the source, and a customer decision pack comes out. A quote that silently assumes warranty terms is how disputes start, so where the source is silent the pack asks a question instead of inventing a promise. The compiler is deterministic, offline and inspectable; no LLM runs in the browser. Built by Marcus Richards, directing AI coding agents.
 
 **Live demo:** https://FetchDoge.github.io/quote-rescue/
 

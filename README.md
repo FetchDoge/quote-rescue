@@ -3,11 +3,11 @@
 **Compiles a contractor estimate into a customer decision pack that says "I don't know" wherever the quote is silent.**
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Live demo](https://img.shields.io/badge/demo-GitHub%20Pages-2ea44f.svg)](https://marsojuji-cmyk.github.io/quote-rescue/)
+[![Live demo](https://img.shields.io/badge/demo-GitHub%20Pages-2ea44f.svg)](https://FetchDoge.github.io/quote-rescue/)
 
 A local-first quote-to-decision-pack compiler. A structured estimate goes in, its facts are validated against the source, and a customer decision pack comes out. A quote that silently assumes warranty terms is how disputes start, so where the source is silent the pack asks a question instead of inventing a promise. The compiler is deterministic, offline and inspectable; no LLM runs in the browser. Built by Marcus Richards in Calgary.
 
-**Live demo:** https://marsojuji-cmyk.github.io/quote-rescue/
+**Live demo:** https://FetchDoge.github.io/quote-rescue/
 
 ## What it guarantees
 
@@ -23,7 +23,7 @@ Each of these is covered by `studio-source/tests.mjs`:
 ## Quickstart
 
 ```bash
-git clone https://github.com/marsojuji-cmyk/quote-rescue && cd quote-rescue
+git clone https://github.com/FetchDoge/quote-rescue && cd quote-rescue
 node studio-source/tests.mjs        # 13 passed
 open index.html                      # the gallery, offline
 ```

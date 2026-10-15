@@ -111,7 +111,7 @@ node tests.mjs
 If `node` is not on `PATH`:
 
 ```sh
-~/.hermes/node/bin/node tests.mjs
+node tests.mjs
 ```
 
 `tests.mjs` reads `index.html`, evaluates the embedded script in a Node `vm` with `document` set to `undefined`, and uses `window.QuoteRescue`. No packages are installed. The process exits non-zero if any check fails.
